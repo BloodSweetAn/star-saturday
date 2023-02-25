@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&family=Ubuntu:ital,wght@1,500&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>SrTech</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid row">
+
+            <div class="col-xl-2">
+                <div class="img-nav">
+                    <img src="/img/logo.png" alt="Logo">
+                </div>
+            </div>
+
+            <div class="col-xl-10 box-header-second">
+                <div class="navb-items d-none d-xl-flex">
+
+                    <div class="item">
+                        <a href="../index.html">Inicio</a>
+                    </div>
+
+                    <div class="item">
+                        <a href="../pages/catalago.html">Catalogo</a>
+                    </div>
+
+                    <div class="item">
+                        <a href="../pages/arma_tu_pc.html">Arma tu PC</a>
+                    </div>
+
+                    <div class="item">
+                        <a href="../pages/quienes_somos.html">Quienes Somos</a>
+                    </div>
+
+                    <div class="item">
+                        <a href="../pages/contacto.html">Contacto</a>
+                    </div>
+
+                    <div class="item-search">
+
+                        <div class="search-item">
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search"
+                                    placeholder="Search" aria-label="Search">
+                            </form>
+                        </div>
+
+                        <div class="carro-compras">
+                            <i class="fa-solid fa-cart-plus fa-2x" style="color: white;"></i>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <nav class="navbar fixed-top d-lg-none color-main m-0 p-0">
+
+                <div class="container-fluid">
+
+                    <div class="img-nav">
+                        <img src="/img/logo.png" alt="Logo">
+                    </div>
+
+                    <button class="navbar-toggler navbar-boton" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="offcanvas offcanvas-end color-main" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+
+                        <div class="offcanvas-header">
+
+                            <div class="img-nav-offcanvas">
+                                <img src="/img/logo.png" alt="Logo">
+                            </div>
+                           
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                            aria-label="Close">
+                            </button> 
+                            
+                        </div>
+                        
+                        <div class="offcanvas-body">
+
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 font-family-t-s cajita-var-movil">
+
+                                <li class="nav-item start-item-narvbar">
+                                    <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                                </li>
+
+                                <li class="nav-item start-item-narvbar">
+                                    <a class="nav-link" aria-current="page" href="../pages/catalago.html">Catalogo</a>
+                                </li>
+
+                                <li class="nav-item start-item-narvbar">
+                                    <a class="nav-link" aria-current="page" href="../pages/catalago.html">Arma tu PC</a>
+                                </li>
+
+                                <li class="nav-item start-item-narvbar">
+                                    <a class="nav-link" aria-current="page" href="../pages/catalago.html">Quienes Somos</a>
+                                </li>
+
+                                <li class="nav-item start-item-narvbar">
+                                    <a class="nav-link" aria-current="page" href="../pages/catalago.html">Contacto</a>
+                                </li>
+
+                            </ul>
+                            
+                            <form class="d-flex mt-3 search-movil" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success btn-sm" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- <div id="carouselExampleIndicators" class="carousel slide w-60 m-auto">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active box-carrosel">
+                <img src="./img/Publicidad.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item box-carrosel">
+                <img src="./img/Publicidad_2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item box-carrosel">
+                <img src="./img/Publicidad_3.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div> -->
+
+
+
+
+
+    <main class="contenidoprincipal-index">
+
+        <div class="product-text">
+            <h3>Productos más vendidos</h3>
+        </div>
+
+        <div class="Padre-productos row border border-end-3 border-start-3 border-top-0 border-bottom-0">
+
+            <div class="col-xl-4 col-md-6 col-sm-12 col-6 Box-cajita">
+
+                <div class="card img-index-li " style="width: 18rem;">
+                    <img src="img/Laptop_A.png" class="card-img-top border border-top-0 border-start-0 border-end-0"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+
+                        <div class="two-buttons-friends">
+                            <div class="btn-incluye-index text-center">
+                                <p>
+                                    <a class="btn btn-outline-dark btn-sm btn-in-dx" data-bs-toggle="collapse"
+                                        href="#collapseExample1" role="button" aria-expanded="false"
+                                        aria-controls="collapseExample">
+                                        Incluye
+                                    </a>
+                                </p>
+                                <div class="collapse box-colap-in" id="collapseExample1">
+                                    <div class="card card-body">
+                                        <a>Mouse Pad</a>
+                                        <a>Mouse Teros</a>
+                                        <a>Mochila</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="btn-sm-buy text-center">
+                                <button type="button" class="btn btn-dark btn-sm">Comprar</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-xl-4 col-md-6 col-sm-12 col-6 Box-cajita">
+
+                <div class="card img-index-li " style="width: 18rem;">
+                    <img src="img/Laptop_A.png" class="card-img-top border border-top-0 border-start-0 border-end-0"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+
+                        <div class="two-buttons-friends">
+                            <div class="btn-incluye-index text-center">
+                                <p>
+                                    <a class="btn btn-outline-dark btn-sm btn-in-dx" data-bs-toggle="collapse"
+                                        href="#collapseExample2" role="button" aria-expanded="false"
+                                        aria-controls="collapseExample">
+                                        Incluye
+                                    </a>
+                                </p>
+                                <div class="collapse box-colap-in" id="collapseExample2">
+                                    <div class="card card-body">
+                                        <a>Mouse Pad</a>
+                                        <a>Mouse Teros</a>
+                                        <a>Mochila</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="btn-sm-buy text-center">
+                                <button type="button" class="btn btn-dark btn-sm">Comprar</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-xl-4 col-md-6 col-sm-12 Box-cajita">
+
+                <div class="card img-index-li " style="width: 18rem;">
+                    <img src="img/Laptop_A.png" class="card-img-top border border-top-0 border-start-0 border-end-0"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+
+                        <div class="two-buttons-friends">
+                            <div class="btn-incluye-index text-center">
+                                <p>
+                                    <a class="btn btn-outline-dark  btn-sm btn-in-dx" data-bs-toggle="collapse"
+                                        href="#collapseExample3" role="button" aria-expanded="false"
+                                        aria-controls="collapseExample">
+                                        Incluye
+                                    </a>
+                                </p>
+                                <div class="collapse box-colap-in" id="collapseExample3">
+                                    <div class="card card-body">
+                                        <a>Mouse Pad</a>
+                                        <a>Mouse Teros</a>
+                                        <a>Mochila</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="btn-sm-buy text-center">
+                                <button type="button" class="btn btn-dark btn-sm">Comprar</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-xl-4 col-md-6 col-sm-12 Box-cajita">
+
+                <div class="card img-index-li " style="width: 18rem;">
+                    <img src="img/Laptop_A.png" class="card-img-top border border-top-0 border-start-0 border-end-0"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+
+                        <div class="two-buttons-friends">
+                            <div class="btn-incluye-index text-center">
+                                <p>
+                                    <a class="btn btn-outline-dark btn-sm btn-in-dx" data-bs-toggle="collapse"
+                                        href="#collapseExample4" role="button" aria-expanded="false"
+                                        aria-controls="collapseExample">
+                                        Incluye
+                                    </a>
+                                </p>
+                                <div class="collapse box-colap-in" id="collapseExample4">
+                                    <div class="card card-body">
+                                        <a>Mouse Pad</a>
+                                        <a>Mouse Teros</a>
+                                        <a>Mochila</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="btn-sm-buy text-center border">
+                                <button type="button" class="btn btn-dark btn-sm">Comprar</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-xl-4 col-md-6 col-sm-12 Box-cajita">
+
+                <div class="card img-index-li " style="width: 18rem;">
+                    <img src="img/Laptop_A.png" class="card-img-top border border-top-0 border-start-0 border-end-0"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+
+                        <div class="two-buttons-friends">
+                            <div class="btn-incluye-index text-center">
+                                <p>
+                                    <a class="btn btn-outline-dark btn-sm btn-in-dx" data-bs-toggle="collapse"
+                                        href="#collapseExample5" role="button" aria-expanded="false"
+                                        aria-controls="collapseExample">
+                                        Incluye
+                                    </a>
+                                </p>
+                                <div class="collapse box-colap-in" id="collapseExample5">
+                                    <div class="card card-body">
+                                        <a>Mouse Pad</a>
+                                        <a>Mouse Teros</a>
+                                        <a>Mochila</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="btn-sm-buy text-center border">
+                                <button type="button" class="btn btn-dark btn-sm">Comprar</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-xl-4 col-md-6 col-sm-12 Box-cajita">
+
+                <div class="card img-index-li " style="width: 18rem;">
+                    <img src="img/Laptop_A.png" class="card-img-top border border-top-0 border-start-0 border-end-0"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+
+                        <div class="two-buttons-friends">
+                            <div class="btn-incluye-index text-center">
+                                <p>
+                                    <a class="btn btn-outline-dark btn-sm btn-in-dx" data-bs-toggle="collapse"
+                                        href="#collapseExample6" role="button" aria-expanded="false"
+                                        aria-controls="collapseExample">
+                                        Incluye
+                                    </a>
+                                </p>
+                                <div class="collapse box-colap-in" id="collapseExample6">
+                                    <div class="card card-body">
+                                        <a>Mouse Pad</a>
+                                        <a>Mouse Teros</a>
+                                        <a>Mochila</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="btn-sm-buy text-center border">
+                                <button type="button" class="btn btn-dark btn-sm">Comprar</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-xl-4 col-md-6 col-sm-12 Box-cajita">
+
+                <div class="card img-index-li " style="width: 18rem;">
+                    <img src="img/Laptop_A.png" class="card-img-top border border-top-0 border-start-0 border-end-0"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+
+                        <div class="two-buttons-friends">
+                            <div class="btn-incluye-index text-center">
+                                <p>
+                                    <a class="btn btn-outline-dark btn-sm btn-in-dx" data-bs-toggle="collapse"
+                                        href="#collapseExample7" role="button" aria-expanded="false"
+                                        aria-controls="collapseExample">
+                                        Incluye
+                                    </a>
+                                </p>
+                                <div class="collapse box-colap-in" id="collapseExample7">
+                                    <div class="card card-body">
+                                        <a>Mouse Pad</a>
+                                        <a>Mouse Teros</a>
+                                        <a>Mochila</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="btn-sm-buy text-center border">
+                                <button type="button" class="btn btn-dark btn-sm">Comprar</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-xl-4 col-md-6 col-sm-12 Box-cajita">
+
+                <div class="card img-index-li " style="width: 18rem;">
+                    <img src="img/Laptop_A.png" class="card-img-top border border-top-0 border-start-0 border-end-0"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+
+                        <div class="two-buttons-friends">
+                            <div class="btn-incluye-index text-center">
+                                <p>
+                                    <a class="btn btn-outline-dark btn-sm btn-in-dx" data-bs-toggle="collapse"
+                                        href="#collapseExample8" role="button" aria-expanded="false"
+                                        aria-controls="collapseExample">
+                                        Incluye
+                                    </a>
+                                </p>
+                                <div class="collapse box-colap-in" id="collapseExample8">
+                                    <div class="card card-body">
+                                        <a>Mouse Pad</a>
+                                        <a>Mouse Teros</a>
+                                        <a>Mochila</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="btn-sm-buy text-center border">
+                                <button type="button" class="btn btn-dark btn-sm">Comprar</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-xl-4 col-md-6 col-sm-12 Box-cajita">
+
+                <div class="card img-index-li " style="width: 18rem;">
+                    <img src="img/Laptop_A.png" class="card-img-top border border-top-0 border-start-0 border-end-0"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+
+                        <div class="two-buttons-friends">
+                            <div class="btn-incluye-index text-center">
+                                <p>
+                                    <a class="btn btn-outline-dark btn-sm btn-in-dx" data-bs-toggle="collapse"
+                                        href="#collapseExample9" role="button" aria-expanded="false"
+                                        aria-controls="collapseExample">
+                                        Incluye
+                                    </a>
+                                </p>
+                                <div class="collapse box-colap-in" id="collapseExample9">
+                                    <div class="card card-body">
+                                        <a>Mouse Pad</a>
+                                        <a>Mouse Teros</a>
+                                        <a>Mochila</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="btn-sm-buy text-center border">
+                                <button type="button" class="btn btn-dark btn-sm">Comprar</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </main>
+
+    <footer class="barra_ultimo">
+
+        <div class="cont-barra-u">
+            <div class="nomb-b1">
+                <h3 class="font-family-t">Navegación</h3>
+
+                <div class="nav-b-ul font-family-t-s">
+                    <ul>
+                        <li class="li_principal"><a class="nav-sec" href="index.html">Inicio</a></li>
+                        <li class="li_principal"><a class="nav-sec" href="./pages/catalago.html">Catalogo</a></li>
+                        <li class="li_principal"><a class="nav-sec" href="./pages/arma_tu_pc.html">Arma tu PC</a></li>
+                        <li class="li_principal"><a class="nav-sec" href="./pages/quienes_somos.html">Quienes Somos?</a>
+                        </li>
+                        <li class="li_principal"><a class="nav-sec" href="./pages/contacto.html">Contacto</a></li>
+                    </ul>
+
+                </div>
+
+            </div>
+            <div class="nomb-b2">
+                <h3 class="font-family-t">Medios de pago</h3>
+
+                <div class="items_Barra-abajo">
+
+                    <div class="itemC primero">
+                        <a href="https://www.paypal.com/pe/home" target="_blank"><i class="fa-brands fa-paypal fa-2x"
+                                style="color: white;"></i></a>
+                    </div>
+                    <div class="itemC segundo">
+                        <a href="https://www.bbva.pe/" target="_blank"><i class="fa-regular fa-credit-card fa-2x"
+                                style="color: white;"></i></a>
+                    </div>
+                    <div class="itemC tercero">
+                        <a href="https://www.mastercard.com.pe/es-pe.html" target="_blank"><i
+                                class="fa-brands fa-cc-mastercard fa-2x" style="color: white;"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="nomb-b3">
+                <h3 class="font-family-t">Redes</h3>
+
+                <div class="items_Barra-abajo">
+
+                    <div class="itemC primero">
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook fa-2x"
+                                style="color: white;"></i></a>
+                    </div>
+                    <div class="itemC segundo">
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-2x"
+                                style="color: white;"></i></a>
+                    </div>
+                    <div class="itemC tercero">
+                        <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter fa-2x"
+                                style="color: white;"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="logo-ultimo">
+                <img src="img/Logo.png" alt="Logo">
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

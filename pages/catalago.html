@@ -1,0 +1,1087 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Ubuntu:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&family=Ubuntu:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/estilos.css">
+    <title>Catalogo</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid row">
+
+            <div class="col-xl-2">
+                <div class="img-nav">
+                    <img src="/img/logo.png" alt="Logo">
+                </div>
+            </div>
+
+            <div class="col-xl-10 box-header-second">
+                <div class="navb-items d-none d-xl-flex">
+
+                    <div class="item">
+                        <a href="../index.html">Inicio</a>
+                    </div>
+    
+                    <div class="item">
+                        <a href="../pages/catalago.html">Catalogo</a>
+                    </div>
+    
+                    <div class="item">
+                        <a href="../pages/arma_tu_pc.html">Arma tu PC</a>
+                    </div>
+    
+                    <div class="item">
+                        <a href="../pages/quienes_somos.html">Quienes Somos</a>
+                    </div> 
+    
+                    <div class="item">
+                        <a href="../pages/contacto.html">Contacto</a>
+                    </div>
+
+                    <div class="item-search">
+
+                        <div class="search-item">
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            </form>
+                        </div>
+        
+                        <div class="carro-compras">
+                            <i class="fa-solid fa-cart-plus fa-2x" style="color: white;"></i>
+                        </div>
+        
+                    </div>
+
+                </div>
+
+            </div>
+
+            <nav class="navbar fixed-top d-lg-none color-main m-0 p-0">
+
+                <div class="container-fluid ">
+
+                    <div class="img-nav">
+                        <img src="/img/logo.png" alt="Logo">
+                    </div>
+
+                    <button class="navbar-toggler navbar-boton" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="offcanvas offcanvas-end color-main" tabindex="-1" id="offcanvasNavbar"
+                        aria-labelledby="offcanvasNavbarLabel">
+
+                        <div class="offcanvas-header">
+
+                            <div class="img-nav-offcanvas">
+                                <img src="/img/logo.png" alt="Logo">
+                            </div>
+                           
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                            aria-label="Close">
+                            </button> 
+                            
+                        </div>
+                        
+                        <div class="offcanvas-body">
+
+                            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 font-family-t-s cajita-var-movil">
+
+                                <li class="nav-item start-item-narvbar">
+                                    <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                                </li>
+
+                                <li class="nav-item start-item-narvbar">
+                                    <a class="nav-link" aria-current="page" href="catalago.html">Catalogo</a>
+                                </li>
+
+                                <li class="nav-item start-item-narvbar">
+                                    <a class="nav-link" aria-current="page" href="arma_tu_pc.html">Arma tu PC</a>
+                                </li>
+
+                                <li class="nav-item start-item-narvbar">
+                                    <a class="nav-link" aria-current="page" href="quienes_somos.html">Quienes Somos</a>
+                                </li>
+
+                                <li class="nav-item start-item-narvbar">
+                                    <a class="nav-link" aria-current="page" href="contacto.html">Contacto</a>
+                                </li>
+
+                            </ul>
+                            
+                            <form class="d-flex mt-3 search-movil" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success btn-sm" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+        <div class="title-box-ctlgo  text-center">
+            <h1>Variedad y Calidad</h1>
+        </div>
+
+        <div class="catalago row">
+
+            <div class="col-xl-3 col-md-4 col-sm-12 text-center box-mid-catalogo">
+
+                <div class="box-scrollspy">
+
+                    <h2>Catalogo</h2>
+
+                    <div class="row box-scrollspy-lista">
+                        <div class="col-xl-10 ">
+                            <div id="list-example" class="list-group">
+                                <a class="list-group-item list-group-item-action" href="#list-item-1">Impresoras</a>
+                                <a class="list-group-item list-group-item-action" href="#list-item-2">Laptops</a>
+                                <a class="list-group-item list-group-item-action" href="#list-item-3">Computadoras</a>
+                                <a class="list-group-item list-group-item-action" href="#list-item-4">Monitores</a>
+                                <a class="list-group-item list-group-item-action" href="#list-item-5">Accesorios</a>
+                                <a class="list-group-item list-group-item-action" href="#list-item-6">Equipos de
+                                    sonido</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-xl-9 col-md-8 col-sm-12 box-img">
+
+                <div class=" bog-caja-cata-ord">
+                    <div class="Productos-catalogo-box w-auto p-4">
+                        <div class="col-sm-3">
+                            <div class="dropdown-center font-family-t">
+                                <button class="btn btn-outline-dark dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Catalogo
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <div class="row">
+                                        <div id="list-example" class="list-group text-center">
+                                            <li><a class="list-group-item list-group-item-action rounded" href="#list-item-1">Impresoras</a></li>
+                                            <li><a class="list-group-item list-group-item-action rounded" href="#list-item-2">Laptops</a></li>
+                                            <li><a class="list-group-item list-group-item-action rounded" href="#list-item-3">Computadoras</a></li>
+                                            <li><a class="list-group-item list-group-item-action rounded" href="#list-item-4">Monitores</a></li>
+                                            <li><a class="list-group-item list-group-item-action rounded" href="#list-item-5">Accesorios</a></li>
+                                            <li><a class="list-group-item list-group-item-action rounded" href="#list-item-6">Equipos de
+                                                sonido</a></li>
+                                        </div>
+                                    </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sub-box-text-header">
+
+                        <div class="dropdown-center order-catalogo w-auto p-4 rounded">
+                            <button class="btn btn-outline-dark dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Ordenar por:
+                            </button>
+                            <ul class="dropdown-menu box-order-catalogo">
+                              <div class="cajita-order-catalogo">
+                                <li><a class="dropdown-item box-order-catalogo-item rounded" href="#">Mayores ofertas</a></li>
+                                <li><a class="dropdown-item box-order-catalogo-item rounded" href="#">Destacados</a></li>
+                                <li><a class="dropdown-item box-order-catalogo-item rounded" href="#">Precio más bajo a más alto</a></li>
+                                <li><a class="dropdown-item box-order-catalogo-item rounded" href="#">Precio más alto a más bajo</a></li>
+                              </div>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="acercade-catalogo text-center ">
+                    <h3>Acerca del producto:</h3>
+                </div>
+
+
+                <div>
+                    <div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true"
+                        class="scrollspy-example" tabindex="0">
+
+                        <div class="img-mid-contenedor">
+
+                            <div class="card mb-3 box-min-product " id="list-item-1" style="max-width: 50rem;">
+                                <div class="row g-0 box-modelado-b1">
+                                    <div class="col-md-4">
+                                        <img src="../img/1_l.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title font-family-t">HP OfficeJet Pro 9015e</h5>
+                                            <p class="card-text">
+                                                Esta impresora de inyección de tinta es ideal para pequeñas empresas o usuarios domésticos avanzados. Es capaz de imprimir hasta 22 páginas por minuto en blanco y negro o 18 páginas por minuto en color. También tiene funciones como escaneo y copia, impresión móvil y un alimentador automático de documentos.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+
+                                            <div class="box-cnt-m-p ">
+                                                <div class="btn-cntc-more_information w-auto">
+                                                    <p>
+                                                        <a class="btn btn-primary  btn-sm" data-bs-toggle="collapse"
+                                                            href="#collapseExample1" role="button" aria-expanded="false"
+                                                            aria-controls="collapseExample">
+                                                            Más información
+                                                        </a>
+                                                    </p>
+                                                    <div class="collapse" id="collapseExample1">
+                                                        <div class="card card-body justifyc">
+                                                            Ofrece impresión a doble cara automática, lo que ayuda a reducir el consumo de papel y ahorrar dinero. Otras características incluyen escaneo a doble cara automático, copiado a color de alta calidad, y capacidad de envío de fax.
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="btn-cntc-price border w-auto">
+                                                    <button type="button"
+                                                        class="btn btn-secondary btn-sm">Comprar</button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-3 box-min-product" style="max-width: 50rem;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="../img/2_l.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title font-family-t">Canon PIXMA TS9120</h5>
+                                            <p class="card-text">
+                                                Esta impresora de inyección de tinta ofrece una calidad de impresión excepcional con una resolución de hasta 9600 x 2400 ppp. Tiene una velocidad de impresión de hasta 15 páginas por minuto en negro y 10 páginas por minuto en color. También tiene una pantalla táctil LCD de 5 pulgadas, escaneo y copia, y conectividad Wi-Fi.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+
+                                            <div class="box-cnt-m-p ">
+                                                <div class="btn-cntc-more_information w-auto">
+                                                    <p>
+                                                        <a class="btn btn-primary  btn-sm" data-bs-toggle="collapse"
+                                                            href="#collapseExample2" role="button" aria-expanded="false"
+                                                            aria-controls="collapseExample">
+                                                            Más información
+                                                        </a>
+                                                    </p>
+                                                    <div class="collapse" id="collapseExample2">
+                                                        <div class="card card-body">
+                                                            Some placeholder content for the collapse component. This
+                                                            panel is hidden by default but revealed when the user
+                                                            activates the relevant trigger.
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="btn-cntc-price w-auto">
+                                                    <button type="button"
+                                                        class="btn btn-secondary btn-sm">Comprar</button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-3 box-min-product" style="max-width: 50rem;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="../img/impresoras_3.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title font-family-t">Epson EcoTank ET-4760</h5>
+                                            <p class="card-text">
+                                                Esta impresora de tanque de tinta utiliza botellas de tinta de alta capacidad en lugar de cartuchos de tinta. Ofrece una velocidad de impresión de hasta 15 páginas por minuto en negro y 8 páginas por minuto en color. También tiene funciones de escaneo y copia, una pantalla táctil de 2,4 pulgadas y conectividad Wi-Fi.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+
+                                            <div class="box-cnt-m-p ">
+                                                <div class="btn-cntc-more_information w-auto">
+                                                    <p>
+                                                        <a class="btn btn-primary  btn-sm" data-bs-toggle="collapse"
+                                                            href="#collapseExample3" role="button" aria-expanded="false"
+                                                            aria-controls="collapseExample">
+                                                            Más información
+                                                        </a>
+                                                    </p>
+                                                    <div class="collapse" id="collapseExample3">
+                                                        <div class="card card-body">
+                                                            Some placeholder content for the collapse component. This
+                                                            panel is hidden by default but revealed when the user
+                                                            activates the relevant trigger.
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="btn-cntc-price w-auto">
+                                                    <button type="button"
+                                                        class="btn btn-secondary btn-sm">Comprar</button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-3 box-min-product" style="max-width: 50rem;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="../img/laptop_hp.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title font-family-t">HP Spectre x360</h5>
+                                            <p class="card-text">
+                                                Esta laptop cuenta con una pantalla táctil de alta resolución, procesadores Intel Core de 11ª generación, hasta 16GB de RAM y almacenamiento SSD de hasta 2TB. Además, tiene un diseño convertible que permite usarla como una laptop o como una tableta.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+
+                                            <div class="box-cnt-m-p ">
+                                                <div class="btn-cntc-more_information w-auto ">
+                                                    <p>
+                                                        <a class="btn btn-primary  btn-sm" data-bs-toggle="collapse"
+                                                            href="#collapseExample4" role="button" aria-expanded="false"
+                                                            aria-controls="collapseExample">
+                                                            Más información
+                                                        </a>
+                                                    </p>
+                                                    <div class="collapse" id="collapseExample4">
+                                                        <div class="card card-body">
+                                                            Some placeholder content for the collapse component. This
+                                                            panel is hidden by default but revealed when the user
+                                                            activates the relevant trigger.
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="btn-cntc-price w-auto">
+                                                    <button type="button"
+                                                        class="btn btn-secondary btn-sm">Comprar</button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-3 box-min-product" id="list-item-2" style="max-width: 50rem;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="../img/laptop_asus_1.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title font-family-t">ASUS ZenBook Pro Duo</h5>
+                                            <p class="card-text">
+                                                Esta laptop cuenta con dos pantallas: una pantalla principal OLED de 15,6 pulgadas y una pantalla secundaria táctil de 14 pulgadas. También cuenta con procesadores Intel Core de 10ª generación, hasta 32GB de RAM y almacenamiento SSD de hasta 1TB.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+
+                                            <div class="box-cnt-m-p ">
+                                                <div class="btn-cntc-more_information w-auto">
+                                                    <p>
+                                                        <a class="btn btn-primary  btn-sm" data-bs-toggle="collapse"
+                                                            href="#collapseExample5" role="button" aria-expanded="false"
+                                                            aria-controls="collapseExample">
+                                                            Más información
+                                                        </a>
+                                                    </p>
+                                                    <div class="collapse" id="collapseExample5">
+                                                        <div class="card card-body">
+                                                            Some placeholder content for the collapse component. This
+                                                            panel is hidden by default but revealed when the user
+                                                            activates the relevant trigger.
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="btn-cntc-price w-auto">
+                                                    <button type="button"
+                                                        class="btn btn-secondary btn-sm">Comprar</button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="card mb-3 box-min-product" style="max-width: 50rem;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="../img/laptop_asus_2.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title font-family-t">ASUS ZenBook Pro Duo UX581GV</h5>
+                                            <p class="card-text">
+                                                Esta laptop tiene una pantalla principal OLED de 15,6 pulgadas y una pantalla secundaria táctil de 14 pulgadas. Cuenta con procesadores Intel Core i7 o i9 de novena generación, hasta 32GB de RAM y almacenamiento SSD de hasta 1TB. Además, tiene una tarjeta gráfica NVIDIA GeForce RTX 2060 o 2080, lo que la hace ideal para trabajos intensivos de diseño gráfico y video. También cuenta con un teclado retroiluminado y una batería de larga duración.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+
+                                            <div class="box-cnt-m-p ">
+                                                <div class="btn-cntc-more_information w-auto">
+                                                    <p>
+                                                        <a class="btn btn-primary  btn-sm" data-bs-toggle="collapse"
+                                                            href="#collapseExample6" role="button" aria-expanded="false"
+                                                            aria-controls="collapseExample">
+                                                            Más información
+                                                        </a>
+                                                    </p>
+                                                    <div class="collapse" id="collapseExample6">
+                                                        <div class="card card-body">
+                                                            Some placeholder content for the collapse component. This
+                                                            panel is hidden by default but revealed when the user
+                                                            activates the relevant trigger.
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="btn-cntc-price w-auto">
+                                                    <button type="button"
+                                                        class="btn btn-secondary btn-sm">Comprar</button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-3 box-min-product" style="max-width: 50rem;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="../img/computadora_1.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title font-family-t">HP Z4 G4</h5>
+                                            <p class="card-text">
+                                                Esta computadora de escritorio está diseñada para trabajos intensivos en los que se requiere un alto rendimiento. Cuenta con procesadores Intel Xeon o Core i9 de hasta 18 núcleos, hasta 256GB de RAM y almacenamiento SSD de hasta 2TB. Además, tiene una tarjeta gráfica NVIDIA Quadro P4000 con 8GB de memoria, lo que la hace ideal para trabajos de diseño gráfico, modelado 3D y animación.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+
+                                            <div class="box-cnt-m-p ">
+                                                <div class="btn-cntc-more_information w-auto">
+                                                    <p>
+                                                        <a class="btn btn-primary  btn-sm" data-bs-toggle="collapse"
+                                                            href="#collapseExample7" role="button" aria-expanded="false"
+                                                            aria-controls="collapseExample">
+                                                            Más información
+                                                        </a>
+                                                    </p>
+                                                    <div class="collapse" id="collapseExample7">
+                                                        <div class="card card-body">
+                                                            Some placeholder content for the collapse component. This
+                                                            panel is hidden by default but revealed when the user
+                                                            activates the relevant trigger.
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="btn-cntc-price w-auto">
+                                                    <button type="button"
+                                                        class="btn btn-secondary btn-sm">Comprar</button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-3 box-min-product" id="list-item-3" style="max-width: 50rem;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="../img/computadora_2.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title font-family-t">Dell XPS Tower Special Edition</h5>
+                                            <p class="card-text">
+                                                Esta computadora de escritorio tiene un diseño elegante y un alto rendimiento. Cuenta con procesadores Intel Core i7 o i9 de novena generación, hasta 64GB de RAM y almacenamiento SSD de hasta 2TB. También tiene una tarjeta gráfica NVIDIA GeForce RTX 2070 o 2080, lo que la hace ideal para juegos y trabajo de edición de video. Además, tiene una unidad de DVD-RW, un lector de tarjetas SD y un lector de huellas dactilares.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+
+                                            <div class="box-cnt-m-p ">
+                                                <div class="btn-cntc-more_information w-auto">
+                                                    <p>
+                                                        <a class="btn btn-primary  btn-sm" data-bs-toggle="collapse"
+                                                            href="#collapseExample8" role="button" aria-expanded="false"
+                                                            aria-controls="collapseExample">
+                                                            Más información
+                                                        </a>
+                                                    </p>
+                                                    <div class="collapse" id="collapseExample8">
+                                                        <div class="card card-body">
+                                                            Some placeholder content for the collapse component. This
+                                                            panel is hidden by default but revealed when the user
+                                                            activates the relevant trigger.
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="btn-cntc-price w-auto">
+                                                    <button type="button"
+                                                        class="btn btn-secondary btn-sm">Comprar</button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-3 box-min-product" style="max-width: 50rem;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="../img/computadora_3.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title font-family-t">Lenovo ThinkStation P920</h5>
+                                            <p class="card-text">
+                                                Esta computadora de escritorio está diseñada para trabajos intensivos en los que se requiere un alto rendimiento y una gran capacidad de almacenamiento. Cuenta con procesadores Intel Xeon de hasta 28 núcleos, hasta 2TB de RAM y almacenamiento SSD de hasta 24TB. Además, tiene una tarjeta gráfica NVIDIA Quadro RTX 8000 con 48GB de memoria, lo que la hace ideal para trabajos de diseño gráfico, modelado 3D y animación.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+
+                                            <div class="box-cnt-m-p ">
+                                                <div class="btn-cntc-more_information w-auto">
+                                                    <p>
+                                                        <a class="btn btn-primary  btn-sm" data-bs-toggle="collapse"
+                                                            href="#collapseExample9" role="button" aria-expanded="false"
+                                                            aria-controls="collapseExample">
+                                                            Más información
+                                                        </a>
+                                                    </p>
+                                                    <div class="collapse" id="collapseExample9">
+                                                        <div class="card card-body">
+                                                            Some placeholder content for the collapse component. This
+                                                            panel is hidden by default but revealed when the user
+                                                            activates the relevant trigger.
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="btn-cntc-price w-auto">
+                                                    <button type="button"
+                                                        class="btn btn-secondary btn-sm">Comprar</button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3 box-min-product" style="max-width: 50rem;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="../img/monitor_1.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title font-family-t">Dell UltraSharp U2719D</h5>
+                                            <p class="card-text">
+                                                Este monitor cuenta con una pantalla de 27 pulgadas con resolución QHD y una amplia gama de colores para una excelente precisión de color. Además, cuenta con una variedad de puertos de entrada para conectar diferentes dispositivos.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+
+                                            <div class="box-cnt-m-p ">
+                                                <div class="btn-cntc-more_information w-auto ">
+                                                    <p>
+                                                        <a class="btn btn-primary  btn-sm" data-bs-toggle="collapse"
+                                                            href="#collapseExample10" role="button"
+                                                            aria-expanded="false" aria-controls="collapseExample">
+                                                            Más información
+                                                        </a>
+                                                    </p>
+                                                    <div class="collapse" id="collapseExample10">
+                                                        <div class="card card-body">
+                                                            Some placeholder content for the collapse component. This
+                                                            panel is hidden by default but revealed when the user
+                                                            activates the relevant trigger.
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="btn-cntc-price w-auto">
+                                                    <button type="button"
+                                                        class="btn btn-secondary btn-sm">Comprar</button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-3 box-min-product" id="list-item-4" style="max-width: 50rem;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="../img/monitor_2.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title font-family-t">Samsung C49J890</h5>
+                                            <p class="card-text">
+                                                Este monitor ultrapanorámico de 49 pulgadas tiene una resolución de 1080p y una relación de aspecto de 32:9. Es ideal para usuarios que necesitan una gran cantidad de espacio en pantalla para trabajar en varias tareas simultáneamente.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+
+                                            <div class="box-cnt-m-p ">
+                                                <div class="btn-cntc-more_information w-auto">
+                                                    <p>
+                                                        <a class="btn btn-primary  btn-sm" data-bs-toggle="collapse"
+                                                            href="#collapseExample11" role="button"
+                                                            aria-expanded="false" aria-controls="collapseExample">
+                                                            Más información
+                                                        </a>
+                                                    </p>
+                                                    <div class="collapse" id="collapseExample11">
+                                                        <div class="card card-body">
+                                                            Some placeholder content for the collapse component. This
+                                                            panel is hidden by default but revealed when the user
+                                                            activates the relevant trigger.
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="btn-cntc-price w-auto">
+                                                    <button type="button"
+                                                        class="btn btn-secondary btn-sm">Comprar</button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-3 box-min-product" style="max-width: 50rem;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="../img/monitor_3.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title font-family-t">Asus ROG Swift PG279QZ</h5>
+                                            <p class="card-text">
+                                                Este monitor de 27 pulgadas cuenta con una resolución WQHD y una tasa de refresco de hasta 165Hz, lo que lo hace ideal para juegos de alta velocidad. Además, cuenta con tecnología G-Sync de Nvidia para una experiencia de juego fluida y sin desgarros de pantalla.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+
+                                            <div class="box-cnt-m-p ">
+                                                <div class="btn-cntc-more_information w-auto">
+                                                    <p>
+                                                        <a class="btn btn-primary  btn-sm" data-bs-toggle="collapse"
+                                                            href="#collapseExample12" role="button"
+                                                            aria-expanded="false" aria-controls="collapseExample">
+                                                            Más información
+                                                        </a>
+                                                    </p>
+                                                    <div class="collapse" id="collapseExample12">
+                                                        <div class="card card-body">
+                                                            Some placeholder content for the collapse component. This
+                                                            panel is hidden by default but revealed when the user
+                                                            activates the relevant trigger.
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="btn-cntc-price w-auto">
+                                                    <button type="button"
+                                                        class="btn btn-secondary btn-sm">Comprar</button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-3 box-min-product" style="max-width: 50rem;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="../img/accesorio_1.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title font-family-t">Bose QuietComfort 35 II</h5>
+                                            <p class="card-text">
+                                                Estos auriculares de diadema inalámbricos cuentan con cancelación activa de ruido para un aislamiento acústico total. Ofrecen una autonomía de hasta 20 horas de uso inalámbrico por carga y un micrófono integrado para realizar llamadas telefónicas y control de voz con asistentes virtuales. Además, se conectan a dispositivos mediante Bluetooth y NFC.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+
+                                            <div class="box-cnt-m-p ">
+                                                <div class="btn-cntc-more_information w-auto ">
+                                                    <p>
+                                                        <a class="btn btn-primary btn-sm" data-bs-toggle="collapse"
+                                                            href="#collapseExample13" role="button"
+                                                            aria-expanded="false" aria-controls="collapseExample">
+                                                            Más información
+                                                        </a>
+                                                    </p>
+                                                    <div class="collapse" id="collapseExample13">
+                                                        <div class="card card-body">
+                                                            Some placeholder content for the collapse component. This
+                                                            panel is hidden by default but revealed when the user
+                                                            activates the relevant trigger.
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="btn-cntc-price w-auto">
+                                                    <button type="button"
+                                                        class="btn btn-secondary btn-sm">Comprar</button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-3 box-min-product" id="list-item-5" style="max-width: 50rem;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="../img/accesorio_2.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title font-family-t">MOUSE GAMER MICRONICS TARGET MIC-M817</h5>
+                                            <p class="card-text">
+                                                <li>» Mouse Óptico Gamer RGB de 7 Botones.</li>
+                                                <li>» Iluminación LED RGB Running.</li>
+                                                <li>» DPI Graduable Hasta 7200.</li>
+                                                <li>» Conexión USB.</li>
+                                                <li>» Cable de Nylon Trenzado de 1.5 mts.</li>
+                                                <li>» Acabado Láser Carved (Grabación Láser).</li>
+                                                <li>» Scroll Retroiluminado.</li>
+                                                <li>» 7 Botones de Función.</li>
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+
+                                            <div class="box-cnt-m-p ">
+                                                <div class="btn-cntc-more_information w-auto">
+                                                    <p>
+                                                        <a class="btn btn-primary  btn-sm " data-bs-toggle="collapse"
+                                                            href="#collapseExample14" role="button"
+                                                            aria-expanded="false" aria-controls="collapseExample">
+                                                            Más información
+                                                        </a>
+                                                    </p>
+                                                    <div class="collapse" id="collapseExample14">
+                                                        <div class="card card-body">
+                                                            Some placeholder content for the collapse component. This
+                                                            panel is hidden by default but revealed when the user
+                                                            activates the relevant trigger.
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="btn-cntc-price w-auto">
+                                                    <button type="button"
+                                                        class="btn btn-secondary btn-sm">Comprar</button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-3 box-min-product" style="max-width: 50rem;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="../img/accesorio_3.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title font-family-t">Sony WH-1000XM4</h5>
+                                            <p class="card-text">
+                                                Estos auriculares inalámbricos de diadema cuentan con cancelación de ruido avanzada y tecnología de audio de alta resolución para ofrecer una experiencia auditiva inmersiva. Tienen una autonomía de hasta 30 horas de uso inalámbrico por carga, micrófono integrado para llamadas y conectividad Bluetooth y NFC para mayor compatibilidad con dispositivos. Además, ofrecen una serie de funciones inteligentes, como pausa automática al retirar los auriculares o la capacidad de ajustar la cancelación de ruido según el entorno.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+
+                                            <div class="box-cnt-m-p ">
+                                                <div class="btn-cntc-more_information w-auto ">
+                                                    <p>
+                                                        <a class="btn btn-primary  btn-sm" data-bs-toggle="collapse"
+                                                            href="#collapseExample15" role="button"
+                                                            aria-expanded="false" aria-controls="collapseExample">
+                                                            Más información
+                                                        </a>
+                                                    </p>
+                                                    <div class="collapse" id="collapseExample15">
+                                                        <div class="card card-body">
+                                                            Some placeholder content for the collapse component. This
+                                                            panel is hidden by default but revealed when the user
+                                                            activates the relevant trigger.
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="btn-cntc-price w-auto">
+                                                    <button type="button"
+                                                        class="btn btn-secondary btn-sm">Comprar</button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-3 box-min-product" style="max-width: 50rem;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="../img/equipo_s_1.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title font-family-t">Samsung Giga Party Audio MX-T50</h5>
+                                            <p class="card-text">
+                                                Este equipo de sonido de alta potencia cuenta con 500 vatios de potencia de salida, luces LED integradas, Bluetooth, USB y conectividad inalámbrica, lo que permite reproducir música desde cualquier dispositivo compatible. También cuenta con un modo de karaoke que permite cantar junto a tus canciones favoritas.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+
+                                            <div class="box-cnt-m-p ">
+                                                <div class="btn-cntc-more_information w-auto">
+                                                    <p>
+                                                        <a class="btn btn-primary  btn-sm" data-bs-toggle="collapse"
+                                                            href="#collapseExample16" role="button"
+                                                            aria-expanded="false" aria-controls="collapseExample">
+                                                            Más información
+                                                        </a>
+                                                    </p>
+                                                    <div class="collapse" id="collapseExample16">
+                                                        <div class="card card-body">
+                                                            Some placeholder content for the collapse component. This
+                                                            panel is hidden by default but revealed when the user
+                                                            activates the relevant trigger.
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="btn-cntc-price w-auto">
+                                                    <button type="button"
+                                                        class="btn btn-secondary btn-sm">Comprar</button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-3 box-min-product" id="list-item-6" style="max-width: 50rem;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="../img/equipo_s_2.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title font-family-t">Samsung MX-T70</h5>
+                                            <p class="card-text">
+                                                Esta torre de sonido cuenta con una potencia de salida de 1500 vatios, 10 altavoces y un diseño de tres vías que proporciona un sonido de alta calidad. También tiene conectividad Bluetooth, USB y entradas de audio y cuenta con luces LED integradas para crear un ambiente festivo.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+
+                                            <div class="box-cnt-m-p ">
+                                                <div class="btn-cntc-more_information w-auto">
+                                                    <p>
+                                                        <a class="btn btn-primary  btn-sm" data-bs-toggle="collapse"
+                                                            href="#collapseExample17" role="button"
+                                                            aria-expanded="false" aria-controls="collapseExample">
+                                                            Más información
+                                                        </a>
+                                                    </p>
+                                                    <div class="collapse" id="collapseExample17">
+                                                        <div class="card card-body">
+                                                            Some placeholder content for the collapse component. This
+                                                            panel is hidden by default but revealed when the user
+                                                            activates the relevant trigger.
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="btn-cntc-price w-auto">
+                                                    <button type="button"
+                                                        class="btn btn-secondary btn-sm">Comprar</button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card mb-3 box-min-product" style="max-width: 50rem;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="../img/equipo_s_3.png" class="img-fluid rounded-start" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title font-family-t">Samsung MX-JS9500</h5>
+                                            <p class="card-text">
+                                                Este sistema de sonido de 4000 vatios cuenta con dos altavoces principales, dos altavoces surround y un subwoofer inalámbrico, lo que permite una experiencia de sonido envolvente. También tiene conectividad Bluetooth y USB, así como un sistema de iluminación LED dinámico que reacciona al ritmo de la música.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins
+                                                    ago</small></p>
+
+                                            <div class="box-cnt-m-p ">
+                                                <div class="btn-cntc-more_information w-auto ">
+                                                    <p>
+                                                        <a class="btn btn-primary  btn-sm" data-bs-toggle="collapse"
+                                                            href="#collapseExample18" role="button"
+                                                            aria-expanded="false" aria-controls="collapseExample">
+                                                            Más información
+                                                        </a>
+                                                    </p>
+                                                    <div class="collapse" id="collapseExample18">
+                                                        <div class="card card-body">
+                                                            Some placeholder content for the collapse component. This
+                                                            panel is hidden by default but revealed when the user
+                                                            activates the relevant trigger.
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="btn-cntc-price w-auto">
+                                                    <button type="button"
+                                                        class="btn btn-secondary btn-sm">Comprar</button>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="barra_ultimo">
+
+        <div class="cont-barra-u">
+            <div class="nomb-b1">
+                <h3 class="font-family-t">Navegación</h3>
+
+                <div class="nav-b-ul font-family-t-s">
+                    <ul>
+                        <li class="li_principal"><a class="nav-sec" href="../index.html">Inicio</a></li>
+                        <li class="li_principal"><a class="nav-sec" href="catalago.html">Catalogo</a></li>
+                        <li class="li_principal"><a class="nav-sec" href="arma_tu_pc.html">Arma tu PC</a></li>
+                        <li class="li_principal"><a class="nav-sec" href="quienes_somos.html">Quienes Somos?</a>
+                        </li>
+                        <li class="li_principal"><a class="nav-sec" href="contacto.html">Contacto</a></li>
+                    </ul>
+
+                </div>
+
+            </div>
+            <div class="nomb-b2">
+                <h3 class="font-family-t">Medios de pago</h3>
+
+                <div class="items_Barra-abajo">
+
+                    <div class="itemC primero">
+                        <a href="https://www.paypal.com/pe/home" target="_blank"><i class="fa-brands fa-paypal fa-2x"
+                                style="color: white;"></i></a>
+                    </div>
+                    <div class="itemC segundo">
+                        <a href="https://www.bbva.pe/" target="_blank"><i class="fa-regular fa-credit-card fa-2x"
+                                style="color: white;"></i></a>
+                    </div>
+                    <div class="itemC tercero">
+                        <a href="https://www.mastercard.com.pe/es-pe.html" target="_blank"><i
+                                class="fa-brands fa-cc-mastercard fa-2x" style="color: white;"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="nomb-b3">
+                <h3 class="font-family-t">Redes</h3>
+
+                <div class="items_Barra-abajo">
+
+                    <div class="itemC primero">
+                        <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook fa-2x"
+                                style="color: white;"></i></a>
+                    </div>
+                    <div class="itemC segundo">
+                        <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-2x"
+                                style="color: white;"></i></a>
+                    </div>
+                    <div class="itemC tercero">
+                        <a href="https://www.twitter.com/" target="_blank"><i class="fa-brands fa-twitter fa-2x"
+                                style="color: white;"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="logo-ultimo">
+                <img src="../img/Logo.png" alt="Logo">
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
