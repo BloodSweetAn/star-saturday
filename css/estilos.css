@@ -977,6 +977,14 @@
 
     @media screen and (max-width: 576px){
 
+        .main-contacto{
+            width: 100%;
+        }
+
+        .box-secret-cnt{
+            margin: 1rem;
+        }
+
         .fondo-box-c{
             display: none;
         }
