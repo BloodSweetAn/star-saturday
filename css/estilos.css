@@ -78,10 +78,6 @@
         margin: auto;
     }
 
-    .box-carrosel{
-        object-fit: cover;
-    }
-
     .color-main{
         background-color: #1e2c3a;
     }
@@ -403,12 +399,6 @@
         justify-content: space-around;
     }
 
-    .carousel-box_transfor{
-        transition: 1s all ease-in-out;
-    }
-    .carousel-box_transfor:hover{
-        transform: scale(1.1);
-    }
     .dropdown-menu{
         text-align: justify;
     }
@@ -417,11 +407,6 @@
         padding: 0.2rem;
     }
 
-    /* .box-big-sub-box{
-        display: flex;
-        margin: auto;
-        justify-content: space-around;
-    } */
 
     .box-big-sub-box{
         display: none;
@@ -537,13 +522,26 @@
     .name-box-atpc{
         background-color: rgba(0, 0, 0, 0.495);
         border-radius: 8px;
+        width: 70%;
+        height: 100%;
     }
+
     .img-box-dentro{
         margin-bottom: 1rem;
     }
-    .name-box-atpc{
-        margin-bottom: 5rem;
+
+    .carousel-box_transfor img{
+        width: 30%;
     }
+
+    .carousel-box_transfor-text{
+        width: 70%;
+    }
+
+    .carrosuel{
+        height: 30%;
+    }
+
     .text-h4-catalogo{
         margin-top: 1rem;
     }
@@ -909,14 +907,12 @@
             width: 10rem;
         }
 
-
-        .carousel-box_transfor{
-            height: 15rem;
-
-        }
-
         .name-box-atpc{
             margin-bottom: 0;
+        }
+
+        .carousel-box_transfor{
+            display: flex;
         }
 
         .box-marcas-sponsor{
