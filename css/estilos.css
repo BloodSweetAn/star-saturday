@@ -78,6 +78,10 @@
         margin: auto;
     }
 
+    .box-carrosel{
+        object-fit: cover;
+    }
+
     .color-main{
         background-color: #1e2c3a;
     }
@@ -324,6 +328,7 @@
 
     .box-cnt-m-p{
         display: flex;
+        
     }
 
     .btn-cntc-more_information{
@@ -332,7 +337,7 @@
 
     .btn-cntc-price{
         position: absolute;
-        right: 15rem;
+        
     }
 
     .img-mid-contenedor img{
@@ -822,8 +827,11 @@
     }
 
     .navbar-boton{
-        margin-right: 1rem;
         background-color: white;
+    }
+
+    .model-navbar-box{
+        width: 100%;
     }
 
     .team-bottoms-sticky{
@@ -925,11 +933,6 @@
         
         .box-min-product:hover{
             transform: scale(1);
-        }
-
-        .btn-cntc-price{
-            position: absolute;
-            right: 5rem;
         }
 
         .caja-big-sub{
