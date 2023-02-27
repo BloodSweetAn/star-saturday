@@ -57,7 +57,7 @@
         display: flex;
         position: relative;
         margin-left: 5rem;
-        margin-top: 0.3rem;
+        margin-top: 0.5rem;
     }
 
     .box-carrosel img{
@@ -286,6 +286,7 @@
 
     .carro-compras{
         margin-left: 2rem;
+
     }
 
     .card-text{
@@ -822,8 +823,8 @@
     }
 
     .item{
-        font-size: 20px;
-        letter-spacing: 2px;
+        font-size: 23px;
+        letter-spacing: 3px;
         color: #1e2c3a;;
         padding: 5px 0;
         transition: all .1s ease;
@@ -839,7 +840,7 @@
     .navb-items{
         width: 95%;
         margin: auto;
-        margin-top: 1.5rem;
+        margin-top: 1rem;
     }
 
     .navb-items a{     
