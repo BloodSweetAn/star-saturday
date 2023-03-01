@@ -1,3 +1,6 @@
+    
+    @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&family=Ubuntu&display=swap');
+
     *{
         margin: 0;
         padding: 0;
@@ -9,17 +12,15 @@
         overflow-x: hidden;
     }
 
+    header{
+        background-color:#1e2c3a;;
+        display: flex;
+        align-items: center;
+    }
+
     a{
         text-decoration: none;
         color: currentColor;
-    }
-
-    .font-family-t{
-        font-family: 'Oswald', sans-serif;
-    }
-
-    .font-family-t-s{
-        font-family: 'Oswald 300', sans-serif;
     }
 
     .justifyc{
@@ -44,24 +45,36 @@
 
     h4{
         font-size: 1.1rem;
-        color: black;
+        color: white;
     }
 
-    .nav-item a{
-        color: white;
-        font-size: 1.2rem;
-        margin-bottom: 0.5rem;
+    .color-main{
+        background-color: #1e2c3a;
     }
+    .back-color-white{
+        color: white;
+    }
+
+    /* Font-family */
+
+    .font-family-t{
+        font-family: 'Oswald', sans-serif;
+    }
+
+    .font-family-t-s{
+        font-family: 'Oswald 300', sans-serif;
+    }
+
+    /* Finaliza ff  */
+
+
+    /* header xl */
 
     .item-search{
         display: flex;
         position: relative;
         margin-left: 5rem;
         margin-top: 0.5rem;
-    }
-
-    .box-carrosel img{
-        object-fit: cover;
     }
 
     .img-nav img{
@@ -75,25 +88,63 @@
         background-color: white;
     }
 
-    .img-index-li img{
-        padding: 1rem;
-    }
-    .img-index-li{
-        margin: auto;
+    .search-item{
+        align-items: center;
     }
 
-    .color-main{
-        background-color: #1e2c3a;
-    }
-    .back-color-white{
+    .item{
+        font-size: 23px;
+        letter-spacing: 3px;
+        color: #1e2c3a;;
+        padding: 5px 0;
+        transition: all .1s ease;
+        border-bottom: 0px solid #64d6f4;
+        border-top: 0px solid #64d6f4;
+        cursor: pointer;
         color: white;
+        font-family: 'Oswald 300', sans-serif;
+    }
+    
+    .navb-items{
+        width: 95%;
+        margin: auto;
+        margin-top: 1rem;
+    }
+
+    .navb-items a{     
+        padding-inline: 1.2rem;
+        font-size: 1rem;
+    }   
+    
+    .item:hover{
+        border-bottom: 3px solid white;
+        border-top: 3px solid #64d6f4;
+    }
+
+    .navbar-boton{
+        background-color: white;
+    }
+
+    .model-navbar-box{
+        width: 100%;
+    }
+
+    .carro-compras{
+        margin-left: 2rem;
+    }
+
+    /* header model */
+    .nav-item a{
+        color: white;
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
     }
 
     .nav-link:hover{
         background-color: rgba(255, 255, 255, 0.125);
         border-radius: 8px;
         color: white;
-    }   
+    }  
 
     .img-nav-offcanvas img{
         width: 10rem;
@@ -101,26 +152,23 @@
         border-bottom: 3px solid #fdfefe;
     }
 
-    .navegacion-inicio{
-        position: relative;
-        left: 80px;
-    }
-
-    .navegacion-inicio li{
-        padding: 1.1rem;
-    }
-
     .form-control{
         height: 2rem;
     }
 
-    .search-item{
-        align-items: center;
+    /* section index */
+    .box-carrosel img{
+        object-fit: cover;
     }
 
-    h4{
-        color: white;
+
+    /* main index */
+    .img-index-li img{
+        padding: 1rem;
     }
+    .img-index-li{
+        margin: auto;
+    } 
 
     .product-text h3{
         position: relative;
@@ -137,7 +185,6 @@
     }
 
     .btn-sm-buy button{
-
         width: 16rem;
     }
 
@@ -161,20 +208,8 @@
         background-color: white;
     }
 
-    .Hijo_A {
-        padding: 15px;
-        margin: auto;
-        background-color: #f6f9f4;
-    }
 
-    .Hijo_A img{
-        margin-bottom: 10px;
-    }
-
-    .arg-hijo{
-        background-color:#e0f1f5;
-        border-radius: 8px;
-    }
+    /* footer */
 
     .barra_ultimo{
         height: 225px;
@@ -221,12 +256,6 @@
         font-size: 1.5rem;
     }
 
-    .navegacion-inicio ul{
-        width: 99%;
-        position: relative;
-        left: 0.1rem;
-    }
-
     .nav-b-ul{
         position: relative;
         right: 30px;
@@ -252,7 +281,13 @@
 
     }
 
+
+
+
     /* Catalogo */
+
+
+    /* titulo y subtitulos*/
 
     .title-box-ctlgo{
         height: 5rem;
@@ -270,38 +305,14 @@
         font-family: 'Oswald', sans-serif;
     }
 
-    .box-scrollspy{
-        position: sticky;
-        z-index: 1;
-        top: 0px;
-        margin-top: 6rem;
-    }
-
-    .catalago{
-        width: 96%;
-        margin: auto;
+    .acercade-catalogo{
+        margin-top: 2rem;
         margin-bottom: 2rem;
-    
+        font-family: 'Oswald', sans-serif;
     }
 
-    .carro-compras{
-        margin-left: 2rem;
-
-    }
-
-    .card-text{
-        text-align: justify;
-        margin-top: 1rem;
-    }
-    .opciones{
-        text-align: start;
-        position: relative;
-        left: 5.4rem; 
-        width: 50%;
-    }
-
-    .opciones a{
-        color: black;
+    .acercade-catalogo h3{
+        font-size: 2rem;
     }
 
     .box-mid-catalogo h2{
@@ -312,24 +323,74 @@
         
     }
 
-    .list-group{
-        font-family: 'Oswald 300', sans-serif;
-        
+
+
+    /* main catalogo */
+
+    .catalago{
+        width: 96%;
+        margin: auto;
+        margin-bottom: 2rem;
+    
     }
 
+    .list-group{
+        font-family: 'Oswald 300', sans-serif;  
+    }
+
+    .box-scrollspy{
+        position: sticky;
+        z-index: 1;
+        top: 0px;
+        margin-top: 6rem;
+    }
+  
     .box-mid-catalogo{
         background-color: #dae1e1;
     }
 
-    .filtros-mid{
-        position: relative;
-        right: 1.2rem;
+    .img-mid-contenedor img{
+        margin: auto;
+        padding: 0.5rem;
+    }
+    .box-min-product{
+        margin: auto;
+        transition: 0.75s all ease-in-out;
     }
 
+    .box-min-product:hover{
+        transform: scale(1.1);
+    }
 
+    .box-img{
+        margin-top: auto;
+    }
+
+    
+    .Productos-catalogo-box{
+        display: none;
+    }
+
+    .bog-caja-cata-ord{
+        display: flex;
+        margin-top: 2rem;
+    }
+
+    /* contenido de las card-catalogo */
+
+    
     .box-cnt-m-p{
         display: flex;
-        
+        justify-content: space-around;
+    }
+
+    .card-text{
+        text-align: justify;
+        margin-top: 1rem;
+    }
+
+    .box-cnt-m-p{
+        display: flex; 
     }
 
     .btn-cntc-more_information{
@@ -339,23 +400,6 @@
     .btn-cntc-price{
         position: absolute;
         
-    }
-
-    .img-mid-contenedor img{
-        margin: auto;
-        padding: 0.5rem;
-    }
-
-    .box-min-product{
-        margin: auto;
-        transition: 0.75s all ease-in-out;
-    }
-
-    .box-min-product:hover{
-        transform: scale(1.1);
-    }
-    .box-img{
-        margin-top: auto;
     }
 
     .order-catalogo{
@@ -376,28 +420,88 @@
         right: 0.3rem;
     }
 
-    .opciones-box{
-        text-align: end;
-        font-family: 'Oswald 300', sans-serif;
-    }
-    .acercade-catalogo{
-        margin-top: 2rem;
-        margin-bottom: 2rem;
-        font-family: 'Oswald', sans-serif;
-    }
 
-    .acercade-catalogo h3{
-        font-size: 2rem;
-    }
+
 
     /* Arma tu PC */
 
+
+    /* main boxes  */
     .box-productos-artpc{
         display: flex;
         width: 90%;
         margin-left: 8rem;
         margin-top: 2rem;
     }
+
+    .box-productos-artpc-father{
+        padding-top: 1rem;
+    }
+
+    .productos-armatupc{
+        width: 90%;
+        margin: auto;
+    }
+
+    .btn-subcategorias{
+        font-size: 2rem;
+        margin-top: 5rem;
+        margin-bottom: 1rem;
+        font-family: 'Oswald', sans-serif;
+
+    }
+
+    .caja-big-sub{
+        margin: auto;
+    }
+
+    .box-subcategorias{
+        position: sticky;
+        z-index: 1;
+        top: 12rem;
+    }
+
+    .fondo-box-c{
+        background-color:#dae1e1;
+    }
+
+    .Productos-subcategorias-box{
+        display: none;
+    }
+
+    .team-bottoms-sticky{
+        width: 90%;
+        margin: 0;
+        padding: 0;
+        margin: auto;
+    }
+
+    .box-more-ord-for{
+        margin-top: 1.2rem;
+        justify-content: space-around;
+        
+    }
+
+
+    /* barra sticky artpc */
+
+    .box-big-sub-box{
+        display: none;
+    }
+
+    .box-padre{
+        background-color:#1E2C3A;
+        position: sticky;
+        z-index:1;
+        top: 0px;
+        height: 5rem;
+    }
+
+    .box-marcas-sponsor{
+        display: flex;
+    }
+
+    /* carousel coments */
 
     .img-fondo-box{
         background-image: url(../img/Fondo_imagen.png);
@@ -421,6 +525,7 @@
         justify-content: center;
         flex-direction: column;
     }
+
     .img-fondo-box-text p{
         width: 80%;
     }
@@ -428,6 +533,9 @@
     .img-fondo-box-text h5{
         margin-bottom: 1rem;
     }
+
+
+    /* contenido cards */
 
     .btns-for-compra{
         display: flex;
@@ -440,11 +548,6 @@
     .dropdown-menu li{
         width: 15rem;
         padding: 0.2rem;
-    }
-
-
-    .box-big-sub-box{
-        display: none;
     }
 
     .parrafo-text-artpc{
@@ -461,10 +564,6 @@
         padding-left: 1rem;
     }
 
-    .box-productos-artpc-father{
-        padding-top: 1rem;
-    }
-
     .img-box-productos-artpc{
         padding: 1rem;
         transition: 1s all ease-in-out;
@@ -473,6 +572,13 @@
     .img-box-productos-artpc:hover{
         transform: scale(1.2);
     }
+
+    .porecentaje-off img{
+        width: 13rem;
+    }
+
+
+    /* titulos y demas */
 
     .titulo-artpc{
         height: 5rem;
@@ -485,140 +591,17 @@
         padding-top: 1.4rem;
     }
 
-    .porecentaje-off img{
-        width: 13rem;
-    }
-
     .sub-catalogo h2{
         margin-top: 1rem;
     }
 
-    .botones-catalogo button{
-        margin-inline: 0.5rem;
-    }
-
-    .fondo-box-c{
-        background-color:#dae1e1;
-    }
-
-    .barra-lineal h4{
-        color: black;
-    }
-
-    .barra-lineal{
-        width: 100%;
-    }
-
-    .collapse-btn-sub{
-        width: 20rem;
-    }
-
-    .card-botones{
-        background-color: #1e2c3a;
-        margin-top: 0.2rem;
-    }
-    .collapse-btn-sub {
-        position: absolute;
-        margin: auto;
-        left: 4rem;
-    }
-
-    .box-padre{
-        background-color:#1E2C3A;
-        position: sticky;
-        z-index:1;
-        top: 0px;
-        height: 5rem;
-    }
 
 
-    .ordenar-box{
-        margin-right: 2.1rem;
-    }
-
-    .caja-big-sub{
-        margin: auto;
-    }
-
-    .box-subcategorias{
-        position: sticky;
-        z-index: 1;
-        top: 12rem;
-    }
-    
-    .btn-subcategorias{
-        font-size: 2rem;
-        margin-top: 5rem;
-        margin-bottom: 1rem;
-        font-family: 'Oswald', sans-serif;
-
-    }
-
-    .name-box-atpc{
-        background-color: rgba(0, 0, 0, 0.495);
-        border-radius: 8px;
-        width: 70%;
-        height: 100%;
-    }
-
-    .img-box-dentro{
-        margin-bottom: 1rem;
-    }
-
-    .carousel-box_transfor img{
-        width: 30%;
-    }
-
-    .carousel-box_transfor-text{
-        width: 70%;
-    }
-
-    .carrosuel{
-        height: 30%;
-    }
-
-    .box-cnt-m-p{
-        display: flex;
-        justify-content: space-around;
-    }
-
-    .text-h4-catalogo{
-        margin-top: 1rem;
-    }
-    .box-marcas-sponsor{
-        display: flex;
-    }
-    .Productos-populares-box{
-        text-align: end;
-        margin-right: 7rem;
-    }
-
-    .productos-armatupc{
-        width: 90%;
-        margin: auto;
-    }
-    .products-atpc{
-        margin: auto;
-        padding: 1rem;
-    }
-
-
-    .mid-outside{
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
-
-    .arg-mid-outside{
-        background-color: #b5ddf9;
-        border-radius: 8px;
-    }
-
-    .arg-mid-outside p{
-        color: rgb(5, 5, 5);
-    }
 
     /* Quienes somos */
 
+
+    /* contenido principal */
     .back-top-header{
         width: 90%;
         margin: auto;
@@ -626,44 +609,9 @@
         margin-bottom: 2rem;
     }
 
-    .big-box-head{
-        margin-bottom: 2rem;
-    }
-    .title-text-qs{
-        height: 5rem;
-        position: relative;
-        top: 1rem;
-    }
     .box-quienes-s{
         display: block;
         margin: auto;
-    }
-
-    .title-header-qs{
-        height: 5rem;
-        background-color: #D7BEA8;
-        font-family: 'Oswald', sans-serif;
-        font-size: 1.8rem;
-    }
-
-    .title-header-qs h1{
-        padding-top: 1rem;
-    }
-
-    .card-h-box{
-        width: 90%;
-        margin: auto;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
-
-    .mov-barra-box{
-        color: black;
-    }
-
-    .names-integrantes{
-        font-family: 'Oswald', sans-serif;
-        font-size: 1.5rem;
     }
 
     .box-quienes-s-text{
@@ -688,29 +636,19 @@
         margin: auto;
     }
 
-    .box-integrantes-all{
-        margin-top: 1.5rem;
-        margin-bottom: 1.5rem;
+
+    /* titulos y demas */
+    .title-header-qs{
+        height: 5rem;
+        background-color: #D7BEA8;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.8rem;
     }
 
-    .btn-redes-integrante i{
-        width: 1rem;
+    .title-header-qs h1{
+        padding-top: 1rem;
     }
 
-    .btn-redes-integrante{
-        margin-inline:0.5rem;
-    }
-
-    .img_integrante{
-        background-color: rgba(157, 155, 155, 0.582);
-        width: 90%;
-        margin: auto;
-    }
-
-    .img_integrante img{
-        margin-bottom: 2.5rem;
-        width: 400px;
-    }
     .sub-title-box{
         background-color:#dae1e1;
         height:auto;
@@ -739,8 +677,41 @@
         font-family: 'Oswald 300', sans-serif;
     }
 
+    /* personas -integrantes */
+
+    .names-integrantes{
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.5rem;
+    }
+
+    .box-integrantes-all{
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .btn-redes-integrante i{
+        width: 1rem;
+    }
+
+    .btn-redes-integrante{
+        margin-inline:0.5rem;
+    }
+
+    .img_integrante{
+        background-color: rgba(157, 155, 155, 0.582);
+        width: 90%;
+        margin: auto;
+    }
+
+    .img_integrante img{
+        margin-bottom: 2.5rem;
+        width: 400px;
+    }
+
 
     /* Contacto */
+
+    /* main */
 
     .box-contact{
         padding-left: 0%;
@@ -802,6 +773,8 @@
         margin: 1rem;
     }
 
+    /* titulos y demas */
+
     .title-contacto{
         height: 5rem;
         background-color: #D7BEA8;
@@ -811,81 +784,6 @@
 
     .title-contacto h1{
         padding-top: 1rem;
-    }
-
-
-    /* Header */
-
-    header{
-        background-color:#1e2c3a;;
-        display: flex;
-        align-items: center;
-    }
-
-    .item{
-        font-size: 23px;
-        letter-spacing: 3px;
-        color: #1e2c3a;;
-        padding: 5px 0;
-        transition: all .1s ease;
-        border-bottom: 0px solid #64d6f4;
-        border-top: 0px solid #64d6f4;
-        cursor: pointer;
-        color: white;
-        font-family: 'Oswald 300', sans-serif;
-    }
-
-
-
-    .navb-items{
-        width: 95%;
-        margin: auto;
-        margin-top: 1rem;
-    }
-
-    .navb-items a{     
-        padding-inline: 1.2rem;
-        font-size: 1rem;
-    }    
-
-    .item:hover{
-        border-bottom: 3px solid white;
-        border-top: 3px solid #64d6f4;
-    }
-    
-    .Productos-subcategorias-box{
-        display: none;
-    }
-
-    .Productos-catalogo-box{
-        display: none;
-    }
-
-    .navbar-boton{
-        background-color: white;
-    }
-
-
-    .model-navbar-box{
-        width: 100%;
-    }
-
-    .team-bottoms-sticky{
-        width: 90%;
-        margin: 0;
-        padding: 0;
-        margin: auto;
-    }
-
-    .box-more-ord-for{
-        margin-top: 1.2rem;
-        justify-content: space-around;
-        
-    }
-
-    .bog-caja-cata-ord{
-        display: flex;
-        margin-top: 2rem;
     }
 
     @media screen and (max-width: 768px){
