@@ -486,6 +486,7 @@
     /* barra sticky artpc */
 
     .box-big-sub-box{
+        margin-top: 1.2rem;
         display: none;
     }
 
@@ -788,6 +789,10 @@
 
     @media screen and (max-width: 768px){
 
+        .box-big-sub-box{
+            display: block;
+        }
+
         .box-mid-catalogo{
             display: none;
         }
@@ -875,6 +880,15 @@
     }
 
     @media screen and (max-width: 576px){
+
+        .box-big-sub-box{
+            display: none;
+            margin-top: 0rem;
+        }
+
+        .box-more-ord-for{
+            margin-top: 1.2rem;
+        }
 
         .main-contacto{
             width: 100%;
