@@ -1,0 +1,44 @@
+.box-carrosel {
+	img {
+		object-fit: cover;
+	}
+}
+.img-index-li {
+	img {
+		padding: 1rem;
+	}
+	margin: auto;
+}
+.product-text {
+	h3 {
+		position: relative;
+		color: $color_4;
+		padding-top: 1rem;
+		font-family: $font-family_2;
+		font-size: 1.8rem;
+	}
+	height: 5rem;
+	background-color: $background-color_4;
+	text-align: center;
+}
+.btn-sm-buy {
+	button {
+		width: 16rem;
+	}
+}
+.btn-in-dx {
+	width: 16rem;
+}
+.box-colap-in {
+	position: relative;
+	bottom: 1rem;
+}
+.Box-cajita {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.Padre-productos {
+	position: relative;
+	margin: auto;
+	background-color: $background-color_2;
+}

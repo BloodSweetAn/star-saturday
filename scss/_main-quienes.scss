@@ -1,0 +1,56 @@
+/* main quienes somos */
+
+.back-top-header {
+	width: 90%;
+	margin: auto;
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.box-quienes-s {
+	display: block;
+	margin: auto;
+}
+.box-quienes-s-text {
+	padding: 1rem;
+	padding-bottom: 0.3rem;
+	color: $color_4;
+	text-align: justify;
+	background-color: $background-color_8;
+}
+.box-quienes-s-img {
+	margin-top: 1rem;
+	img {
+		padding: 0.4rem;
+		justify-content: center;
+	}
+}
+.equipo_img_trabajo {
+	width: 90%;
+	margin: auto;
+}
+
+/* contenido-cards */
+
+.names-integrantes {
+	font-family: $font-family_2;
+	font-size: 1.5rem;
+}
+.box-integrantes-all {
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+.btn-redes-integrante {
+	i {
+		width: 1rem;
+	}
+	margin-inline: 0.5rem;
+}
+.img_integrante {
+	background-color: $background-color_10;
+	width: 90%;
+	margin: auto;
+	img {
+		margin-bottom: 2.5rem;
+		width: 400px;
+	}
+}

@@ -1,0 +1,57 @@
+.barra_ultimo {
+	height: 225px;
+	background-color: $background-color_main;
+}
+.nomb-b1 {
+	grid-area: navegacion;
+	position: relative;
+	top: 28px;
+}
+.nomb-b2 {
+	grid-area: medio_p;
+	position: relative;
+	bottom: 7px;
+}
+.nomb-b3 {
+	grid-area: Redes;
+	position: relative;
+	bottom: 7px;
+}
+.logo-ultimo {
+	position: relative;
+	grid-area: logo_u;
+	img {
+		width: 10rem;
+	}
+}
+.cont-barra-u {
+	display: grid;
+	color: $color_2;
+	grid-template-areas: "navegacion medio_p Redes logo_u";
+	align-items: center;
+	justify-content: space-around;
+	height: auto;
+	h3 {
+		font-size: 1.5rem;
+	}
+}
+.nav-b-ul {
+	position: relative;
+	right: 30px;
+	top: 10px;
+}
+.nav-sec {
+	text-decoration: none;
+	color: $color_2;
+	display: block;
+}
+.items_Barra-abajo {
+	display: flex;
+	justify-content: space-around;
+	color: $color_2;
+}
+.itemC {
+	padding: 15px;
+	position: relative;
+	right: 15px;
+}

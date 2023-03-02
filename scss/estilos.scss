@@ -1,0 +1,321 @@
+@import "https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&family=Ubuntu&display=swap";
+
+@import "variables";
+@import "header";
+@import "main-index";
+@import "footer";
+@import "main-catalogo";
+@import "titulos-subtitulos";
+@import "main-artpc";
+@import "main-quienes";
+@import "main-contacto";
+
+
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+header {
+	background-color: $background-color_main;
+	display: flex;
+	align-items: center;
+}
+
+a {
+	text-decoration: none;
+	color: $color_1;
+	&:hover {
+		color: $color_1;
+	}
+}
+
+.justifyc {
+	text-align: justify;
+}
+
+h1 {
+	font-size: 1.7rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+h3 {
+	font-size: 1.3rem;
+}
+
+h4 {
+	font-size: 1.1rem;
+	color: $color_2;
+}
+
+@media screen and (max-width: 768px){
+
+    .box-big-sub-box{
+        display: block;
+    }
+
+    .box-mid-catalogo{
+        display: none;
+    }
+
+    .fondo-box-c{
+        display: none;
+    }
+
+    .Productos-catalogo-box{
+        display: block;
+    }
+
+    .id_nav{
+        flex-direction: row;
+        position: relative;
+        justify-content: center;
+        right: 20px;
+        width: 40rem;
+    }
+    
+    .star-colum-mapa iframe{
+        width: 100%;
+    }
+
+    .box-scrollspy{
+        top: 10rem;
+    }
+
+    .text-box-input input{
+        width: 100%;
+    }
+
+    .text-box-input-msj input{
+        width: 100%;
+    }
+
+    .Productos-subcategorias-box{
+        display: block;
+    }
+
+    .box-padre{
+        top: 3rem;
+    }
+
+    .team-bottoms li{
+        border-radius: 8px;
+        width: 85%;
+        margin: auto;
+        margin-left: 1.4rem;
+    }
+
+    .img-box-dentro{
+        width: 10rem;
+    }
+
+    .name-box-atpc{
+        margin-bottom: 0;
+    }
+
+    .carousel-box_transfor{
+        display: flex;
+    }
+
+    .box-marcas-sponsor{
+        display: none;
+    }
+
+    .porecentaje-off{
+        display: none;
+    }
+
+    .star-colum-mapa iframe{
+        width: 100%;
+    }
+    
+    .box-min-product:hover{
+        transform: scale(1);
+    }
+
+    .caja-big-sub{
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width: 576px){
+
+    .box-big-sub-box{
+        display: none;
+        margin-top: 0rem;
+    }
+
+    .box-more-ord-for{
+        margin-top: 1.2rem;
+    }
+
+    .main-contacto{
+        width: 100%;
+    }
+
+    .box-secret-cnt{
+        margin: 1rem;
+    }
+
+    .fondo-box-c{
+        display: none;
+    }
+
+    .navegacion-inicio{
+        left: 0px;
+    }
+    .img-nav img{
+        left: 20px;
+        width: 110px;
+    }
+
+    .start-item-narvbar a{
+        padding-left: 1rem;
+    }
+
+    .box-mid-catalogo{
+        display: none;
+    }
+
+    .Productos-catalogo-box{
+        display: block;
+    }
+
+    .box-min-product:hover{
+        transform: scale(1);
+    }
+
+    .start-item-narvbar{
+        padding: 7px 0;
+    }
+
+    .cajita-var-movil{
+        position: relative;
+        bottom: 1.5rem;
+    }
+
+    .title-box-ctlgo{
+        padding-top: 0.8rem;
+    }
+
+    .Productos-subcategorias-box{
+        display: block;
+    }
+
+    .search-movil{
+        position: relative;
+        bottom: 1.7rem; 
+    }
+
+    .star-colum-mapa iframe{
+        width: 100%;
+    }
+
+    .search-movil{
+        padding-left: 0.8rem;
+    }
+
+    .box-marcas-sponsor{
+        display: none;
+    }
+
+    .porecentaje-off{
+        display: none;
+    }
+
+    .search-movil input{
+        width: 20rem;
+    }
+
+    .caja-big-sub{
+        width: 100%;
+    }
+
+    .start-item-narvbar:hover{
+        color: #fefefe;
+        border-bottom: 1px solid #fefefe;
+        padding-right: 0.5rem;
+        width: 80%;
+    }
+
+    .title-header-qs h1{
+        padding-top: 1.5rem;
+    }
+
+    .search-item{
+        position: absolute;
+        width: 12rem;
+        top: 40px;
+        right: 130px;
+    }
+            
+    .hijoA{
+        margin: 20px;
+        border: solid rgb(208, 214, 208) 30px;
+        background-color: rgb(240, 237, 234);
+    }
+
+    .id_nav{
+        position: relative;
+        right: 30px;
+        font-size: 15px;
+    }
+
+    .cont-barra-u{
+        display: grid;
+        color: white;
+        grid-template-areas:
+        "navegacion medio_p"
+        "navegacion Redes";
+        align-items: center;
+        justify-content: space-around;
+
+    }
+
+    .logo-ultimo{
+        display: none;
+    }
+    
+    .items_Barra-abajo{
+        position: relative;
+        bottom: 10px;
+    }
+
+    .nav-b-ul ul{
+        position: relative;
+        bottom: 15px;
+        right: 30px;
+    }
+
+    .li_principal{
+        padding: 1px;
+    }
+
+    .nomb-b2{
+        top: 35px;
+    }
+
+    .nomb-b3{
+        top: 35px;
+    }
+    .carro-compras{
+        position: absolute;
+        top: 35px;
+        right: 45px;
+    }
+    .nav-b-ul{
+        right: 0px;
+        
+    }
+}

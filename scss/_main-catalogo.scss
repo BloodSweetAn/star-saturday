@@ -1,0 +1,73 @@
+/* main catalogo */
+
+.catalago {
+	width: 96%;
+	margin: auto;
+	margin-bottom: 2rem;
+}
+.list-group {
+	font-family: $font-family_3;
+}
+.box-scrollspy {
+	position: sticky;
+	z-index: 1;
+	top: 0px;
+	margin-top: 6rem;
+}
+.img-mid-contenedor {
+	img {
+		margin: auto;
+		padding: 0.5rem;
+	}
+}
+.box-min-product {
+	margin: auto;
+	transition: 0.75s all ease-in-out;
+	&:hover {
+		transform: scale(1.1);
+	}
+}
+.box-img {
+	margin-top: auto;
+}
+.Productos-catalogo-box {
+	display: none;
+}
+.bog-caja-cata-ord {
+	display: flex;
+	margin-top: 2rem;
+}
+
+/* Contenido cards */
+
+.box-cnt-m-p {
+	display: flex;
+	justify-content: space-around;
+	display: flex;
+}
+.card-text {
+	text-align: justify;
+	margin-top: 1rem;
+}
+.btn-cntc-more_information {
+	width: 30rem;
+}
+.btn-cntc-price {
+	position: absolute;
+}
+.order-catalogo {
+	text-align: end;
+}
+.box-order-catalogo {
+	width: 15rem;
+}
+.box-order-catalogo-item {
+	width: 13.5rem;
+	font-family: $font-family_3;
+}
+.cajita-order-catalogo {
+	li {
+		position: relative;
+		right: 0.3rem;
+	}
+}

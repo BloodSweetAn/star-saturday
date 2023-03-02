@@ -1,0 +1,134 @@
+
+/* main- arma tu pc */
+
+.box-productos-artpc {
+	display: flex;
+	width: 90%;
+	margin-left: 8rem;
+	margin-top: 2rem;
+}
+.box-productos-artpc-father {
+	padding-top: 1rem;
+}
+.productos-armatupc {
+	width: 90%;
+	margin: auto;
+}
+.btn-subcategorias {
+	font-size: 2rem;
+	margin-top: 5rem;
+	margin-bottom: 1rem;
+	font-family: $font-family_2;
+}
+.caja-big-sub {
+	margin: auto;
+}
+.box-subcategorias {
+	position: sticky;
+	z-index: 1;
+	top: 12rem;
+}
+.fondo-box-c {
+	background-color: $background-color_5;
+}
+.Productos-subcategorias-box {
+	display: none;
+}
+.team-bottoms-sticky {
+	width: 90%;
+	margin: 0;
+	padding: 0;
+	margin: auto;
+}
+.box-more-ord-for {
+	margin-top: 1.2rem;
+	justify-content: space-around;
+}
+
+/* barra model/tablet sticky */
+
+.box-big-sub-box {
+	margin-top: 1.2rem;
+	display: none;
+}
+.box-padre {
+	background-color: $background-color_6;
+	position: sticky;
+	z-index: 1;
+	top: 0px;
+	height: 5rem;
+}
+.box-marcas-sponsor {
+	display: flex;
+}
+
+/* comentarios-personas */
+
+.img-fondo-box {
+	background-image: url(../img/Fondo_imagen.png);
+	width: 100%;
+	height: 40vh;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.img-fondo-box-text {
+	background-color: $background-color_7;
+	height: 100%;
+	width: 100%;
+	color: $color_2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	p {
+		width: 80%;
+	}
+	h5 {
+		margin-bottom: 1rem;
+	}
+}
+
+/* contenido cards */
+
+.btns-for-compra {
+	display: flex;
+	justify-content: space-around;
+}
+.dropdown-menu {
+	text-align: justify;
+	li {
+		width: 15rem;
+		padding: 0.2rem;
+	}
+}
+.parrafo-text-artpc {
+	width: 100%;
+	p {
+		margin: auto;
+		padding-left: 1rem;
+	}
+}
+.text-price-artpc {
+	&:hover {
+		border-bottom: 3px solid #64d6f4;
+		border-top: 3px solid #64d6f4;
+	}
+}
+.img-box-productos-artpc {
+	padding: 1rem;
+	transition: 1s all ease-in-out;
+	&:hover {
+		transform: scale(1.2);
+	}
+}
+.porecentaje-off {
+	img {
+		width: 13rem;
+	}
+}
+
+
