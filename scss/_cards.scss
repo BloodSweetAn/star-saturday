@@ -1,0 +1,98 @@
+/* contenido cards artpc*/
+
+.btns-for-compra {
+	display: flex;
+	justify-content: space-around;
+}
+.dropdown-menu {
+	text-align: justify;
+	li {
+		width: 15rem;
+		padding: 0.2rem;
+	}
+}
+.parrafo-text-artpc {
+	width: 100%;
+	p {
+		margin: auto;
+		padding-left: 1rem;
+	}
+}
+.text-price-artpc {
+	&:hover {
+		border-bottom: 3px solid #64d6f4;
+		border-top: 3px solid #64d6f4;
+	}
+}
+.img-box-productos-artpc {
+	padding: 1rem;
+	transition: 1s all ease-in-out;
+	&:hover {
+		transform: scale(1.2);
+	}
+}
+.porecentaje-off {
+	img {
+		width: 13rem;
+	}
+}
+
+/* Contenido cards catalogo */
+
+.box-cnt-m-p {
+	display: flex;
+	justify-content: space-around;
+	display: flex;
+}
+.card-text {
+	text-align: justify;
+	margin-top: 1rem;
+}
+.btn-cntc-more_information {
+	width: 30rem;
+}
+.btn-cntc-price {
+	position: absolute;
+}
+.order-catalogo {
+	text-align: end;
+}
+.box-order-catalogo {
+	width: 15rem;
+}
+.box-order-catalogo-item {
+	width: 13.5rem;
+	font-family: $font-family_3;
+}
+.cajita-order-catalogo {
+	li {
+		position: relative;
+		right: 0.3rem;
+	}
+}
+
+/* contenido-cards quienes somos*/
+
+.names-integrantes {
+	font-family: $font-family_2;
+	font-size: 1.5rem;
+}
+.box-integrantes-all {
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+}
+.btn-redes-integrante {
+	i {
+		width: 1rem;
+	}
+	margin-inline: 0.5rem;
+}
+.img_integrante {
+	background-color: $background-color_10;
+	width: 90%;
+	margin: auto;
+	img {
+		margin-bottom: 2.5rem;
+		width: 400px;
+	}
+}

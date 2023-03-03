@@ -92,43 +92,6 @@
 	}
 }
 
-/* contenido cards */
 
-.btns-for-compra {
-	display: flex;
-	justify-content: space-around;
-}
-.dropdown-menu {
-	text-align: justify;
-	li {
-		width: 15rem;
-		padding: 0.2rem;
-	}
-}
-.parrafo-text-artpc {
-	width: 100%;
-	p {
-		margin: auto;
-		padding-left: 1rem;
-	}
-}
-.text-price-artpc {
-	&:hover {
-		border-bottom: 3px solid #64d6f4;
-		border-top: 3px solid #64d6f4;
-	}
-}
-.img-box-productos-artpc {
-	padding: 1rem;
-	transition: 1s all ease-in-out;
-	&:hover {
-		transform: scale(1.2);
-	}
-}
-.porecentaje-off {
-	img {
-		width: 13rem;
-	}
-}
 
 

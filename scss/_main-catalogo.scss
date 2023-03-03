@@ -38,36 +38,3 @@
 	margin-top: 2rem;
 }
 
-/* Contenido cards */
-
-.box-cnt-m-p {
-	display: flex;
-	justify-content: space-around;
-	display: flex;
-}
-.card-text {
-	text-align: justify;
-	margin-top: 1rem;
-}
-.btn-cntc-more_information {
-	width: 30rem;
-}
-.btn-cntc-price {
-	position: absolute;
-}
-.order-catalogo {
-	text-align: end;
-}
-.box-order-catalogo {
-	width: 15rem;
-}
-.box-order-catalogo-item {
-	width: 13.5rem;
-	font-family: $font-family_3;
-}
-.cajita-order-catalogo {
-	li {
-		position: relative;
-		right: 0.3rem;
-	}
-}
