@@ -42,7 +42,7 @@
 .navb-items {
   width: 95%;
   margin: auto;
-  margin-top: 1rem;
+  margin-top: 0.7rem;
 }
 .navb-items a {
   padding-inline: 1.2rem;
@@ -378,7 +378,8 @@
 .box-subcategorias {
   position: sticky;
   z-index: 1;
-  top: 12rem;
+  top: 11rem;
+  margin-bottom: 3rem;
 }
 
 .fondo-box-c {
@@ -409,7 +410,7 @@
 }
 
 .box-padre {
-  background-color: #1E2C3A;
+  background-color: #1e2c3a;
   position: sticky;
   z-index: 1;
   top: 0px;

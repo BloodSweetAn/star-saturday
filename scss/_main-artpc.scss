@@ -18,7 +18,7 @@
 	font-size: 2rem;
 	margin-top: 5rem;
 	margin-bottom: 1rem;
-	font-family: $font-family_2;
+	font-family: $font-titulos;
 }
 .caja-big-sub {
 	margin: auto;
@@ -26,10 +26,11 @@
 .box-subcategorias {
 	position: sticky;
 	z-index: 1;
-	top: 12rem;
+	top: 11rem;
+	margin-bottom: 3rem;
 }
 .fondo-box-c {
-	background-color: $background-color_5;
+	background-color: $background-fondo-cajas;
 }
 .Productos-subcategorias-box {
 	display: none;
@@ -41,7 +42,7 @@
 	margin: auto;
 }
 .box-more-ord-for {
-	font-family: $font-family_2;
+	font-family: $font-titulos;
 	margin-top: 1.2rem;
 	justify-content: space-around;
 }
@@ -53,7 +54,7 @@
 	display: none;
 }
 .box-padre {
-	background-color: $background-color_6;
+	background-color: $background-color_main;
 	position: sticky;
 	z-index: 1;
 	top: 0px;

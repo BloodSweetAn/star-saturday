@@ -34,7 +34,7 @@
 	border-top: 0px solid #64d6f4;
 	cursor: pointer;
 	color: $color_2;
-	font-family: $font-family_3;
+	font-family: $font-sub-all;
 	&:hover {
 		border-bottom: 3px solid white;
 		border-top: 3px solid #64d6f4;
@@ -43,7 +43,7 @@
 .navb-items {
 	width: 95%;
 	margin: auto;
-	margin-top: 1rem;
+	margin-top: 0.7rem;
 	a {
 		padding-inline: 1.2rem;
 		font-size: 1rem;
