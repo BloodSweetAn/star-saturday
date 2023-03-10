@@ -10,7 +10,9 @@
   position: relative;
   left: 3rem;
   width: 10rem;
-  margin-top: 0.6rem;
+}
+.img-nav img:hover {
+  transform: rotate(-2deg);
 }
 .img-nav button {
   background-color: white;
@@ -103,7 +105,7 @@
   background-color: #D7BEA8;
   text-align: center;
 }
-.product-text h3 {
+.product-text h1 {
   position: relative;
   color: black;
   padding-top: 1rem;

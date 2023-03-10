@@ -11,8 +11,12 @@
 		position: relative;
 		left: 3rem;
 		width: 10rem;
-		margin-top: 0.6rem;
+		&:hover{
+			transform: rotate(-2deg);
+		}
 	}
+
+
 	button {
 		background-color: $background-color_2;
 	}
