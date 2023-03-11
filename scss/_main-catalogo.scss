@@ -9,9 +9,7 @@
 	font-family: $font-sub-all;
 }
 .box-scrollspy {
-	position: sticky;
-	z-index: 1;
-	top: 0px;
+	@include posicion_fija(0px);
 	margin-top: 6rem;
 }
 .img-mid-contenedor {

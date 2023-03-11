@@ -1,5 +1,21 @@
 @import "https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&family=Ubuntu&display=swap";
 
+@mixin posicion_fija ($top){
+    position: sticky;
+	z-index: 1;
+	top: $top;
+}
+
+@mixin desplazar-abajo($bottom){
+    position: relative;
+    bottom: $bottom;
+}
+
+@mixin texto-titulos{
+    font-family: $font-titulos;
+	font-size: 1.8rem;
+}
+
 @import "variables";
 @import "header";
 @import "main-index";
@@ -202,8 +218,7 @@ h4 {
     }
 
     .cajita-var-movil{
-        position: relative;
-        bottom: 1.5rem;
+        @include desplazar-abajo(1.5rem);
     }
 
     .title-box-ctlgo{
@@ -215,8 +230,7 @@ h4 {
     }
 
     .search-movil{
-        position: relative;
-        bottom: 1.7rem; 
+        @include desplazar-abajo(1.7rem);
     }
 
     .star-colum-mapa iframe{
@@ -289,13 +303,11 @@ h4 {
     }
     
     .items_Barra-abajo{
-        position: relative;
-        bottom: 10px;
+        @include desplazar-abajo(10px);
     }
 
     .nav-b-ul ul{
-        position: relative;
-        bottom: 15px;
+        @include desplazar-abajo(15px);
         right: 30px;
     }
 

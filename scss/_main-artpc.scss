@@ -15,18 +15,15 @@
 	margin: auto;
 }
 .btn-subcategorias {
-	font-size: 2rem;
 	margin-top: 5rem;
 	margin-bottom: 1rem;
-	font-family: $font-titulos;
+	@include texto-titulos;
 }
 .caja-big-sub {
 	margin: auto;
 }
 .box-subcategorias {
-	position: sticky;
-	z-index: 1;
-	top: 11rem;
+	@include posicion_fija(11rem);
 	margin-bottom: 3rem;
 }
 .fondo-box-c {
@@ -55,9 +52,7 @@
 }
 .box-padre {
 	background-color: $background-color_main;
-	position: sticky;
-	z-index: 1;
-	top: 0px;
+	@include posicion_fija(0px);
 	height: 5rem;
 }
 .box-marcas-sponsor {

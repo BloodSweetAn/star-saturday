@@ -42,7 +42,6 @@
 .box-cnt-m-p {
 	display: flex;
 	justify-content: space-around;
-	display: flex;
 }
 .card-text {
 	text-align: justify;
@@ -74,8 +73,7 @@
 /* contenido-cards quienes somos*/
 
 .names-integrantes {
-	font-family: $font-titulos;
-	font-size: 1.5rem;
+	@include texto-titulos;
 }
 .box-integrantes-all {
 	margin-top: 1.5rem;
