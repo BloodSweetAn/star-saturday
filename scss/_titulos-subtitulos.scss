@@ -79,6 +79,30 @@
 	}
 }
 
+.cajita-mi-vi-box{
+	display:flex;
+	margin-bottom: 1rem;
+}
+
+.vision-cajita-box{
+	margin-right: 0.5rem;
+	margin-left: 0.5rem;
+	background-color: $background-color_11;
+	border-radius: 8px;
+	h2{
+		margin-top: 1rem;
+	}
+	p{
+		padding: 1rem;
+	}
+}
+
+.parrafo-main-qs{
+	width: 98%;
+	margin: auto;
+	margin-bottom: 1rem;
+}
+
 /* Contacto */
 
 .title-contacto {

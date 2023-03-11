@@ -364,6 +364,30 @@
   padding: 1rem;
 }
 
+.cajita-mi-vi-box {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.vision-cajita-box {
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  background-color: rgba(255, 255, 255, 0.838);
+  border-radius: 8px;
+}
+.vision-cajita-box h2 {
+  margin-top: 1rem;
+}
+.vision-cajita-box p {
+  padding: 1rem;
+}
+
+.parrafo-main-qs {
+  width: 98%;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
 /* Contacto */
 .title-contacto {
   height: 5rem;
@@ -498,6 +522,10 @@
   color: black;
   text-align: justify;
   background-color: rgba(218, 225, 225, 0.2117647059);
+}
+.box-quienes-s-text h2 {
+  font-family: "Oswald", sans-serif;
+  padding-bottom: 0.5rem;
 }
 
 .box-quienes-s-img {
@@ -743,6 +771,12 @@ h4 {
     justify-content: center;
     right: 20px;
     width: 40rem;
+  }
+  .cajita-mi-vi-box {
+    display: block;
+  }
+  .vision-cajita-box {
+    margin-bottom: 1rem;
   }
   .star-colum-mapa iframe {
     width: 100%;

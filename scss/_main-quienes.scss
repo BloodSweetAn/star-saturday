@@ -16,6 +16,11 @@
 	color: $color_4;
 	text-align: justify;
 	background-color: $background-color_8;
+	
+	h2{
+		font-family: $font-titulos;
+		padding-bottom: 0.5rem;
+	}
 }
 .box-quienes-s-img {
 	margin-top: 1rem;
