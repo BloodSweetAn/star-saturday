@@ -533,6 +533,8 @@
 }
 .box-quienes-s-img img {
   padding: 0.4rem;
+  height: 40vw;
+  width: 100vw;
   justify-content: center;
 }
 
