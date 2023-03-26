@@ -1,9 +1,7 @@
 @import "https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&family=Ubuntu&display=swap"; /* Header xl */
 .item-search {
   display: flex;
-  position: relative;
-  margin-left: 5rem;
-  margin-top: 0.5rem;
+  padding: 5px 0;
 }
 
 .contenedor-nav-main {
@@ -50,10 +48,10 @@
 }
 
 .item {
-  font-size: 23px;
-  letter-spacing: 3px;
+  font-size: 10px;
+  letter-spacing: 1px;
   color: #1e2c3a;
-  padding: 5px 0;
+  padding: 10px 0;
   transition: all 0.1s ease;
   border-bottom: 0px solid #64d6f4;
   border-top: 0px solid #64d6f4;
@@ -67,12 +65,13 @@
 }
 
 .navb-items {
-  width: 95%;
   margin: auto;
   margin-top: 0.7rem;
+  display: flex;
+  justify-content: space-evenly;
 }
 .navb-items a {
-  padding-inline: 1.2rem;
+  padding-inline: 1rem;
   font-size: 1rem;
 }
 
@@ -257,10 +256,6 @@
 
 .box-min-product {
   margin: auto;
-  transition: 0.75s all ease-in-out;
-}
-.box-min-product:hover {
-  transform: scale(1.1);
 }
 
 .box-img {
@@ -424,12 +419,13 @@
 }
 
 .caja-big-sub {
-  margin: auto;
+  width: 66%;
+  margin-left: auto;
 }
 
 .box-subcategorias {
   position: sticky;
-  z-index: 1;
+  z-index: 0;
   top: 11rem;
   margin-bottom: 3rem;
 }
@@ -459,6 +455,7 @@
 .box-big-sub-box {
   margin-top: 1.2rem;
   display: none;
+  font-family: "Oswald", sans-serif;
 }
 
 .box-padre {
@@ -533,9 +530,8 @@
 }
 .box-quienes-s-img img {
   padding: 0.4rem;
-  height: 40vw;
+  height: 50vw;
   width: 100vw;
-  justify-content: center;
 }
 
 .equipo_img_trabajo {
@@ -808,7 +804,7 @@ h4 {
     display: block;
   }
   .box-padre {
-    top: 4rem;
+    top: 5rem;
   }
   .team-bottoms li {
     border-radius: 8px;
@@ -839,6 +835,7 @@ h4 {
   }
   .caja-big-sub {
     width: 100%;
+    margin: auto;
   }
 }
 @media screen and (max-width: 576px) {
